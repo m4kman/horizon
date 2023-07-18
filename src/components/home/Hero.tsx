@@ -3,12 +3,12 @@ import heroImg from "../../assets/hero.png";
 
 export default function Hero() {
   return (
-    <div className="grid h-[58rem] grid-cols-12 grid-rows-3 gap-x-[10.65rem] gap-y-16 bg-hero-image bg-cover">
-      <div className="col-start-6 row-start-2 w-[39rem]">
-        <p className="self-center font-secondary text-2xl font-normal">
+    <div className="flex h-[58rem] items-center justify-center bg-hero-image bg-cover bg-center">
+      <div className="mb-16 ml-[35rem]">
+        <p className="font-secondary text-2xl font-normal">
           Rubber Products Manufacturing LLC
         </p>
-        <h1 className="inline-block max-w-[40rem] self-center font-hero text-[4rem] font-bold leading-[5rem]">
+        <h1 className="inline-block max-w-[40rem] font-hero text-[4rem] font-bold leading-[5rem]">
           Quality Rubber Strips, Unmatched Performance
           <svg
             xmlns="http://www.w3.org/2000/svg"
