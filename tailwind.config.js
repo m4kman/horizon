@@ -11,6 +11,9 @@ export default {
       backgroundImage: {
         "hero-image": "url('./src/assets/hero.png')",
       },
+      listStyleImage: {
+        polygon: "url('./src/assets/list_image.png')",
+      },
     },
   },
   plugins: [],

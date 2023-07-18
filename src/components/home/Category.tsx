@@ -12,18 +12,28 @@ export default function Category() {
         We specialize in manufacturing the following types of products.
       </p>
       <div className="mt-[6rem] flex gap-9">
-        <span>
+        <div>
           <img src={imageOne} alt="Mattress Tape" />
-        </span>
-        <span>
+          <h1 className="mt-9 text-center text-2xl font-semibold">
+            Mattress Tape
+          </h1>
+        </div>
+        <div>
           <img src={imageTwo} alt="Twill Tape" />
-        </span>
-        <span>
+          <h1 className="mt-9 text-center text-2xl font-semibold">
+            Twill Tape
+          </h1>
+        </div>
+        <div>
           <img src={imageThree} alt="Drawcords" />
-        </span>
-        <span>
+          <h1 className="mt-9 text-center text-2xl font-semibold">Drawcords</h1>
+        </div>
+        <div>
           <img src={imageFour} alt="Bungee Cords" />
-        </span>
+          <h1 className="mt-9 text-center text-2xl font-semibold">
+            Bungee Cords
+          </h1>
+        </div>
       </div>
     </div>
   );
