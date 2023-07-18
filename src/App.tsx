@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/home/Hero";
 import Category from "./components/home/Category";
 import Info from "./components/home/Info";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Hero />
       <Category />
       <Info />
+      <Contact />
     </div>
   );
 }

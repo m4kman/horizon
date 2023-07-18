@@ -9,7 +9,7 @@ export default function Customization() {
         <img src={graphicImage} alt="Graphic Image" />
       </div>
       <div className="ml-[10rem]">
-        <p className="mb-1 text-xl font-bold leading-8 text-[#8878B7]">
+        <p className="text-xl font-bold leading-8 text-[#8878B7]">
           putting your needs first!
         </p>
         <h1 className="text-[2.5rem] font-semibold">Customization</h1>

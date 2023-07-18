@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="flex justify-between gap-[8.25rem]">
       <div className="ml-28 mt-44">
-        <p className="mb-1 text-xl font-bold leading-8 text-[#8878B7]">
+        <p className="text-xl font-bold leading-8 text-[#8878B7]">
           who we are?
         </p>
         <h1 className="mb-6 text-[2.5rem] font-semibold">About us</h1>
