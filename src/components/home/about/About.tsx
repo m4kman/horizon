@@ -3,7 +3,7 @@ import aboutOne from "../../../assets/about1.png";
 
 export default function About() {
   return (
-    <div className="flex justify-between gap-[8.25rem]">
+    <div id="about" className="flex justify-between gap-[8.25rem]">
       <div className="ml-28 mt-44">
         <p className="text-xl font-bold leading-8 text-[#8878B7]">
           who we are?

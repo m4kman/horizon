@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="flex h-[58rem] items-center justify-center bg-hero-image bg-cover bg-center">
+    <div className="flex h-[58rem] items-center justify-center rounded-[3.125rem] bg-hero-image bg-cover bg-center">
       <div className="mb-16 ml-[35rem]">
         <p className="font-secondary text-2xl font-normal">
           Rubber Products Manufacturing LLC
