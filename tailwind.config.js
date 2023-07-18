@@ -7,7 +7,11 @@ export default {
       hero: ["Raleway"],
       secondary: ["Jost"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "hero-image": "url('./src/assets/hero.png')",
+      },
+    },
   },
   plugins: [],
 };
