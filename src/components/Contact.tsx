@@ -3,7 +3,10 @@ import Button from "./Button";
 
 export default function Contact() {
   return (
-    <div className="mt-[17.5rem] flex min-h-[839px] justify-between gap-12">
+    <div
+      id="contact"
+      className="mt-[17.5rem] flex min-h-[839px] justify-between gap-12"
+    >
       <div className="max-w-[45rem]">
         <p className="text-xl font-bold leading-8 text-[#8878B7]">
           we're here to listen!
