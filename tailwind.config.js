@@ -9,11 +9,11 @@ export default {
     },
     extend: {
       backgroundImage: {
-        "hero-image": "url('./src/assets/hero.png')",
-        "contact-image": "url('./src/assets/contact.png')",
+        "hero-image": "url('./hero.png')",
+        "contact-image": "url('./contact.png')",
       },
       listStyleImage: {
-        polygon: "url('./src/assets/list_image.png')",
+        polygon: "url('./list_image.png')",
       },
     },
   },
