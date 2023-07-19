@@ -37,8 +37,8 @@ export default function Navbar() {
             </NavLink>
           )}
           <NavLink
-            className={({ isActive }) =>
-              isActive
+            className={
+              location.pathname.includes("products")
                 ? "ml-[3rem] font-semibold text-[#B8D653]"
                 : "ml-[3rem] text-[#9B9898]"
             }

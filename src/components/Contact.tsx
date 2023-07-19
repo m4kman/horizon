@@ -1,4 +1,33 @@
+import { useForm, ValidationError } from "@formspree/react";
+
 export default function Contact() {
+  const [state, handleSubmit] = useForm(process.env.FORM_ENDPOINT);
+
+  if (state.succeeded) {
+    return (
+      <div className="mb-72 mt-72 text-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          className="mx-auto mb-8 h-32 w-32 text-[#B8D653]"
+        >
+          <path
+            fillRule="evenodd"
+            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+            clipRule="evenodd"
+          />
+        </svg>
+
+        <h1 className="mb-8 text-6xl font-bold text-[#B8D653]">Thank You!</h1>
+        <p className="mb-8 text-3xl font-semibold">
+          Your response was submitted successfully.
+        </p>
+        <p className="text-[#9B9898]">We will reach out to you soon.</p>
+      </div>
+    );
+  }
+
   return (
     <div
       id="contact"
@@ -13,22 +42,36 @@ export default function Contact() {
           Reach out to us for personalized support and expert guidance on rubber
           strip customization. Your satisfaction is our utmost priority.
         </p>
-        <form className="flex flex-col">
+        <form className="flex flex-col" onSubmit={handleSubmit}>
           <div className="flex flex-col">
             <input
               className="mb-4 rounded-[1.25rem] bg-[#F6F6F6] px-[2.62rem] py-[1.3rem] text-xl font-medium text-[#BBA4FF] placeholder-[#BBA4FF]"
               type="text"
               placeholder="Full Name"
+              name="name"
             />
+            <ValidationError prefix="Name" field="name" errors={state.errors} />
             <input
               className="mb-4 rounded-[1.25rem] bg-[#F6F6F6] px-[2.62rem] py-[1.3rem] text-xl font-medium text-[#BBA4FF] placeholder-[#BBA4FF]"
               type="email"
               placeholder="Email"
+              name="email"
+            />
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
             />
             <input
               className="rounded-[1.25rem] bg-[#F6F6F6] px-[2.62rem] pb-[11.56rem] pt-[1.3rem] text-xl font-medium text-[#BBA4FF] placeholder-[#BBA4FF]"
               type="text"
               placeholder="Tell us details of your order!"
+              name="description"
+            />
+            <ValidationError
+              prefix="Description"
+              field="description"
+              errors={state.errors}
             />
           </div>
           <button
