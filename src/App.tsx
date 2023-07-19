@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Products from "./components/Products";
@@ -16,7 +15,7 @@ export default function App() {
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
             <Route
-              path="/products"
+              path="/products/mattress"
               element={
                 <Products
                   name="Mattress Tape"
@@ -37,7 +36,7 @@ export default function App() {
                 <Products
                   name="Twill Tape"
                   infoArray={[
-                    "Twill tape is a narrow, flat woven fabric strip with a distinctive diagonal pattern.",
+                    "Twill tape is a flat, woven fabric with a diagonal pattern.",
                     "It is durable and resistant to tearing and fraying.",
                     "Available in various widths and colors.",
                     "Used in sewing and crafts as a stabilizer, tie, or drawstring.",

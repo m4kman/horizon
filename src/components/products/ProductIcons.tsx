@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ProductIcons() {
   return (
     <div className="flex gap-6 text-center text-2xl">

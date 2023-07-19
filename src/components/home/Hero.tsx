@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Hero() {
   return (
     <div className="flex h-[58rem] items-center justify-center rounded-[3.125rem] bg-hero-image bg-cover bg-center">

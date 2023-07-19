@@ -1,8 +1,6 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
-import Button from "./Button";
 
 export default function Navbar() {
   const location = useLocation();
@@ -29,21 +27,32 @@ export default function Navbar() {
           >
             Home
           </NavLink>
-          <NavLink className="mx-[3rem]" to="/">
-            About Us
-          </NavLink>
+          {location.pathname.endsWith("/") ? (
+            <a className="mx-[3rem]" href="#about">
+              About Us
+            </a>
+          ) : (
+            <NavLink className="mx-[3rem]" to="/">
+              About Us
+            </NavLink>
+          )}
           <NavLink
             className={({ isActive }) =>
               isActive
                 ? "ml-[3rem] font-semibold text-[#B8D653]"
                 : "ml-[3rem] text-[#9B9898]"
             }
-            to="/products"
+            to="/products/mattress"
           >
             Products
           </NavLink>
         </div>
-        <Button>Contact Us</Button>
+        <a
+          className="rounded-[.625rem] bg-[#B8D653] px-[4rem] py-[1rem] font-main text-2xl font-semibold text-[#fff]"
+          href="#contact"
+        >
+          Contact Us
+        </a>
       </nav>
     </>
   );

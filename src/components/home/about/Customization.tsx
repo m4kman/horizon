@@ -1,6 +1,4 @@
-import React from "react";
 import graphicImage from "../../../assets/about2.png";
-import Button from "../../Button";
 
 export default function Customization() {
   return (
@@ -25,7 +23,12 @@ export default function Customization() {
           <li className="mb-2 pl-2">Approve the sample.</li>
           <li className="pl-2">Production and delivery</li>
         </ul>
-        <Button>Contact us now</Button>
+        <a
+          className="inline-block rounded-[.625rem] bg-[#B8D653] px-[4rem] py-[1rem] font-main text-2xl font-semibold text-[#fff]"
+          href="#contact"
+        >
+          Contact us now
+        </a>
       </div>
     </div>
   );
