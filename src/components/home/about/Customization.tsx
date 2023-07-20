@@ -1,4 +1,4 @@
-import graphicImage from "../../../assets/about2.png";
+import graphicImage from "../../../assets/about2.webp";
 
 export default function Customization() {
   return (

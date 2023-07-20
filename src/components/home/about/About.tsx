@@ -1,4 +1,4 @@
-import aboutOne from "../../../assets/about1.png";
+import aboutOne from "../../../assets/about1.webp";
 
 export default function About() {
   return (

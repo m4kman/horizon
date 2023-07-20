@@ -2,10 +2,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Products from "./components/Products";
 import Layout from "./components/Layout";
-import mattressImg from "./assets/mattress.png";
-import twillImg from "./assets/twill.png";
-import drawcordsImg from "./assets/drawcords.png";
-import bungeeImg from "./assets/bungee.png";
+import mattressImg from "./assets/mattress.webp";
+import twillImg from "./assets/twill.webp";
+import drawcordsImg from "./assets/drawcords.webp";
+import bungeeImg from "./assets/bungee.webp";
 
 export default function App() {
   return (

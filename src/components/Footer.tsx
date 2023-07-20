@@ -1,4 +1,4 @@
-import logo from "../assets/footer_logo.png";
+import logo from "../assets/footer_logo.webp";
 
 export default function Footer() {
   return (

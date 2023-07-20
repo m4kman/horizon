@@ -1,7 +1,7 @@
-import imageOne from "../../assets/Image1.png";
-import imageTwo from "../../assets/Image2.png";
-import imageThree from "../../assets/image3.png";
-import imageFour from "../../assets/image4.png";
+import imageOne from "../../assets/Image1.webp";
+import imageTwo from "../../assets/Image2.webp";
+import imageThree from "../../assets/image3.webp";
+import imageFour from "../../assets/image4.webp";
 
 export default function Category() {
   return (
