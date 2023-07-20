@@ -9,8 +9,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        "hero-image": "url('/hero.png')",
-        "contact-image": "url('/contact.png')",
+        "hero-image": "url('/hero.webp')",
+        "contact-image": "url('/contact.webp')",
       },
       listStyleImage: {
         polygon: "url('/list_image.png')",
