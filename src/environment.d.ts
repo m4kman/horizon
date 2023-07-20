@@ -1,7 +1,7 @@
 declare global {
   namespace NodeJS {
     interface ProcessEnv {
-      FORM_ENDPOINT: string;
+      NEXT_PUBLIC_FORM_ENDPOINT: string;
     }
   }
 }
