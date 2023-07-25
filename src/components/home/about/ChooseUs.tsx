@@ -14,30 +14,30 @@ export default function ChooseUs() {
       <h1 className="mb-[6.25rem] text-[2.5rem] font-semibold">
         Your Needs, Our Priority
       </h1>
-      <div className="flex w-full justify-center gap-[4.6rem] px-[7.5rem] text-center">
-        <div className="max-w-full">
+      <div className="flex w-full gap-[4.6rem] px-[7.5rem] text-center">
+        <div className="">
           <ChooseUsImages path={groupOne} />
           <p className="mt-[3.25rem] text-2xl font-medium">Superior Quality</p>
         </div>
-        <div className="max-w-full">
+        <div className="">
           <ChooseUsImages path={groupTwo} />
           <p className="mt-[3.25rem] text-2xl font-medium">
             Extensive Product Range
           </p>
         </div>
-        <div className="max-w-full">
+        <div className="">
           <ChooseUsImages path={groupThree} />
           <p className="mt-[3.25rem] text-2xl font-medium">
             Competitive Pricing
           </p>
         </div>
-        <div className="max-w-full">
+        <div className="">
           <ChooseUsImages path={groupFour} />
           <p className="mt-[3.25rem] text-2xl font-medium">
             Reliable Customer Service
           </p>
         </div>
-        <div className="max-w-full">
+        <div className="">
           <ChooseUsImages path={groupFive} />
           <p className="mt-[3.25rem] text-2xl font-medium">
             Sustainable Practices
