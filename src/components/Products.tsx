@@ -8,7 +8,7 @@ export default function Products({
 }: {
   name: string;
   infoArray: string[];
-  img: string;
+  img: string[];
 }) {
   return (
     <div>

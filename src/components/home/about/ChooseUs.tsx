@@ -14,32 +14,34 @@ export default function ChooseUs() {
       <h1 className="mb-[6.25rem] text-[2.5rem] font-semibold">
         Your Needs, Our Priority
       </h1>
-      <div className="flex w-full gap-[4.6rem] px-[7.5rem] text-center">
+      <div className="flex w-full flex-wrap justify-center gap-[4rem] px-[7.06rem] text-center">
         <div className="">
           <ChooseUsImages path={groupOne} />
-          <p className="mt-[3.25rem] text-2xl font-medium">Superior Quality</p>
+          <p className="mx-auto mt-[3.25rem] max-w-[11rem] text-2xl font-medium">
+            Superior Quality
+          </p>
         </div>
         <div className="">
           <ChooseUsImages path={groupTwo} />
-          <p className="mt-[3.25rem] text-2xl font-medium">
+          <p className="mx-auto mt-[3.25rem] max-w-[16rem] text-2xl font-medium">
             Extensive Product Range
           </p>
         </div>
         <div className="">
           <ChooseUsImages path={groupThree} />
-          <p className="mt-[3.25rem] text-2xl font-medium">
+          <p className="mx-auto mt-[3.25rem] max-w-[12.9rem] text-2xl font-medium">
             Competitive Pricing
           </p>
         </div>
         <div className="">
           <ChooseUsImages path={groupFour} />
-          <p className="mt-[3.25rem] text-2xl font-medium">
+          <p className="mx-auto mt-[3.25rem] max-w-[15.43rem] text-2xl font-medium">
             Reliable Customer Service
           </p>
         </div>
         <div className="">
           <ChooseUsImages path={groupFive} />
-          <p className="mt-[3.25rem] text-2xl font-medium">
+          <p className="mx-auto mt-[3.25rem] max-w-[14.18rem] text-2xl font-medium">
             Sustainable Practices
           </p>
         </div>

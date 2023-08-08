@@ -2,14 +2,16 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Products from "./components/Products";
 import Layout from "./components/Layout";
-import mattressImg from "./assets/mattress.webp";
-import twillImg from "./assets/twill.webp";
-import drawcordsImg from "./assets/drawcords.webp";
-import bungeeImg from "./assets/bungee.webp";
+import { mattressArray } from "./images";
+import { twillArray } from "./images";
+import { drawcordArray } from "./images";
+import { bungeeArray } from "./images";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="px-[4rem] font-main">
         <Routes>
           <Route element={<Layout />}>
@@ -26,7 +28,7 @@ export default function App() {
                     "Helps maintain the shape and structure of the mattress.",
                     "Adds a decorative touch to the appearance of the mattress.",
                   ]}
-                  img={mattressImg}
+                  img={mattressArray}
                 />
               }
             />
@@ -42,7 +44,7 @@ export default function App() {
                     "Used in sewing and crafts as a stabilizer, tie, or drawstring.",
                     "Popular for apron strings and ties in culinary garments.",
                   ]}
-                  img={twillImg}
+                  img={twillArray}
                 />
               }
             />
@@ -58,7 +60,7 @@ export default function App() {
                     "Used in sportswear and activewear too.",
                     "Adjustable and customizable cords.",
                   ]}
-                  img={drawcordsImg}
+                  img={drawcordArray}
                 />
               }
             />
@@ -74,7 +76,7 @@ export default function App() {
                     "Ideal for camping, luggage, and outdoor activities.",
                     "Offer a strong and reliable grip.",
                   ]}
-                  img={bungeeImg}
+                  img={bungeeArray}
                 />
               }
             />
