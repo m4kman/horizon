@@ -119,7 +119,7 @@ export default function Contact() {
                 />
               </svg>
               <p className="inline-block pl-5">
-                +971 506280879 / +971 509526111
+                +971 506280879 / +971 67480100
               </p>
             </div>
             <div className="mt-5">
