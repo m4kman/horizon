@@ -17,7 +17,7 @@ export default function Footer() {
         </p>
         <p className="font-semibold text-[#B8D653]">
           info@hgat.ae <span className="text-[#000]">|</span> +971 506280879 /
-          +971 509526111 <span className="text-[#000]">|</span> U.A.E
+          +971 67480100 <span className="text-[#000]">|</span> U.A.E
         </p>
       </div>
     </footer>
